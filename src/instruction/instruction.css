@@ -1,0 +1,28 @@
+.instruction {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: whitesmoke;
+  }
+  
+  .uniInstruction {
+    text-align: left;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .uniInstruction.collapse {
+    background-color: whitesmoke;
+  }
+  
+  .instructionButton {
+    height: 4em;
+  }
+
+
+  .answer {
+    padding: 1%;
+  }

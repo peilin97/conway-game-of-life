@@ -1,0 +1,51 @@
+#root {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  height: 5%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customJumbotron {
+  position: absolute;
+  top: 5%;
+  height: 95%;
+  width: 100%;
+  left: 0%;
+  background-color: whitesmoke;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1%;
+}
+
+.floatText {
+  float: left;
+}
+
+.largeText {
+  font-size: large;
+}
+
+@media screen and (min-width: 768px) {
+  .smallerText {
+    font-size: smaller;
+  }
+}
+
+
+.navbar-brand:hover {
+  font-size: large;
+}
+
+@media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
+}

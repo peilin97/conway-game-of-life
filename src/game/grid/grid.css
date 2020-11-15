@@ -1,0 +1,16 @@
+.gridRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .gridCol {
+    border: 1px solid grey;
+  }
+  
+  .gridContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+  }
